@@ -2,7 +2,8 @@
 <html lang="ko">
   <head>
     <meta charset="utf-8">
-    <title>이런 영웅은 싫어</title>
+<title>이런 영웅은 싫어</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
 	body {
 	background-image: url('https://i.esdrop.com/d/f/bNgepgkacx/fmOUu2u0Wj.png');
@@ -17,38 +18,106 @@
     font-weight: normal;
     font-style: normal;
 }
-	.main {
+	#main {
 	height: 100%;
 	margin-top: 300px;
 	}
-	.box {
+	
+	#box {
 	top: -1500px;
 	left: 1200px;
 	}
 	
-	.box2 {
+	#box2 {
 		height: 1500px;
 		overflow: hidden;
 		margin: 0 0 0 0px;
 		}
-	.profile_bg {
+		
+	#profile_bg {
 		top: -2362px;
 		left: 186px;
 		}
+	
+	#profile {
+		position: relative;
+		width: 565px;
+		left: 250px;
+		top: -560px;
+		z-index: 5;
+		}
+	
+	#bg {
+		width: 550px;
+		height: 260px;
+	}
+	
+	#character {
+		width: 340px;
+	}
+	
+	#C_name {
+		position: relative;
+		z-index: 4;
+		width: 500px;
+		left: 100px;
+		top: -2300px;
+		}
+		
+	@media ( max-width: 480px ) {
+		#main {
+			width: auto;
+			margin-top: 50px;
+		}
+        
+		#box2 {
+			width: auto;
+			height: 500px;
+			margin-top: 0px;
+			margin-left : 100px;
+		}
+        
+		#profile_bg {
+			top: -1500px;
+			left: -4px;
+		}
+		
+		#profile {
+			width: 350px;
+			left: 105px;
+			font-size: 13px;
+			top: -530px;
+		}
+		
+		#C_name {
+			width: 265px;
+			top: -1220px;
+			left: 75px;
+			}
+		
+		#bg {
+			width: 350px;
+			height: 223px;
+		}
+		#character {
+			width: 340px;
+			margin-left: 210px;
+		}
+      }
     </style>
   </head>
   <body>
     <center>
     <div class="main">
 	<div style="position: relative; left: -210px; z-index: 2;">
-	<img style="width: 340px;" src="https://i.esdrop.com/d/f/bNgepgkacx/sbG9PRx0dw.png">
+	<img style="width: 340px;" src="https://i.esdrop.com/d/f/bNgepgkacx/BdeKY2p2lp.png">
 	</div>
 	<div style="position: relative; width: 565px; left: 246px; top: -569px; z-index: 5;">
 	<p style="text-align: left; font-family: 'LeferiPoint-WhiteObliqueA'; font-weight: bolder;">히어로 기관 SPOON 서장.</br>매서운 인상과 검은 정장에 화려한 꽃무늬 셔츠 때문에</br>처음 보는 사람들은 곧잘 조폭으로 착각하곤 한다.</br>하지만 서장임에도 불철주야 제발로 현장을 뛰어다니는</br>히어로 중의 히어로.</p>
 	</div>
 		</div>
 	<div class="box2" style="position: relative; left: -550px; top: -1280px; z-index: 1;">
-	<img style="width: 120%; opacity: 0.7;" src="https://i.esdrop.com/d/f/bNgepgkacx/sbG9PRx0dw.png">
+	<img style="width: 120%; opacity: 0.7;" src="https://i.esdrop.com/d/f/bNgepgkacx/BdeKY2p2lp.png">
 	</div>
 	<img style="position: relative; z-index: 4; width: 500px; left: 100px; top: -2300px;" src="https://i.esdrop.com/d/f/bNgepgkacx/N2LLKRw2tg.png">
 	<div class="profile_bg" style="position: relative; z-index: 3;">
